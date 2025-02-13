@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', cursive;
+    overflow: hidden;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/rose1.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.messages p {
+    color: #fff;
+    font-size: 1.8em;
+    margin: 15px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.continue-btn {
+    margin-top: 40px;
+    padding: 15px 40px;
+    background-color: #ff1493;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.4em;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+}
+
+.continue-btn:hover {
+    background-color: #ff0066;
+    transform: scale(1.1);
+}
