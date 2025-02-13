@@ -14,7 +14,7 @@ body {
   
   /* First Page Styles */
   .first-page {
-    background-image: url('../assets/rose1.jpg');
+    background-image: url(/workspaces/valentines-day/assets/rose1.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -53,7 +53,7 @@ body {
   
   /* Second Page Styles */
   .second-page {
-    background-image: url('../assets/rose-2.jpg');
+    background-image: url(/workspaces/valentines-day/assets/rose-2.jpg);
     background-size: cover;
     background-position: center;
   }
