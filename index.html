@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valentine's Day</title>
-  <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <style>
+        body {
+            background-color: #ffb3c1; /* Fallback color */
+            background-image: url('https://images.unsplash.com/photo-1517191439906-3f6d1e397d4f');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+            min-height: 100vh;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .content-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ffecf2;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            margin-top: 30px;
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
 </head>
-<body class="first-page">
-  <div class="content">
-    <h1>Happy Valentine's Day!</h1>
-    <p>Happy Valentine’s Day, my love! From the moment you came into my life, you’ve filled my world with warmth, laughter, and a love so deep it feels like magic...</p>
-    <a href="second-page.html" class="continue-link">Continue</a>
-  </div>
+<body>
+    <div class="content-wrapper">
+        <h1>Happy Valentine’s Day, My Love! 💖</h1>
+        <p>From the moment you came into my life, you’ve filled my world with warmth, laughter, and a love so deep it feels like magic. Every day with you is a beautiful adventure, and I am endlessly grateful for your kindness, your laughter, and the way you make my heart feel at home. You are my favorite thought in the morning and my sweetest dream at night, and I cherish every moment we share.</p>
+        
+        <p>You are the light that brightens my darkest days, the melody in my happiest songs, and the reason my heart beats a little faster. Your love is the most precious gift, wrapping me in its warmth and making everything feel possible. In your arms, I find comfort; in your words, I find strength; and in your eyes, I see a love that is pure and unwavering.</p>
+        
+        <p>On this special day, I celebrate you—not just for the love you give, but for the incredible person you are. Your kindness, your laughter, and your beautiful soul make my world a better place. I promise to cherish you, to stand by you, and to love you more with each passing day. Happy Valentine’s Day, my love—you are my heart’s greatest joy, today and always.</p>
+        
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/3HbKnQxd0_E" 
+                    title="Valentine's Day Video" 
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </div>
 </body>
 </html>
