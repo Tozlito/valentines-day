@@ -1,64 +1,71 @@
-* {
+/* General Styles */
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', cursive;
-    overflow: hidden;
-}
-
-.background-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* First Page Styles */
+  .first-page {
     background-image: url('../assets/rose1.jpg');
     background-size: cover;
     background-position: center;
-    z-index: -1;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
+  }
+  
+  .content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-h1 {
-    color: #ff69b4;
-    font-size: 3.5em;
-    margin-bottom: 30px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.messages p {
-    color: #fff;
-    font-size: 1.8em;
-    margin: 15px 0;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-}
-
-.continue-btn {
-    margin-top: 40px;
-    padding: 15px 40px;
-    background-color: #ff1493;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .continue-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff4d4d;
     color: white;
     text-decoration: none;
-    border-radius: 30px;
-    font-size: 1.4em;
-    transition: all 0.3s ease;
-    border: 2px solid white;
-}
-
-.continue-btn:hover {
-    background-color: #ff0066;
-    transform: scale(1.1);
-}
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .continue-link:hover {
+    background: #ff1a1a;
+  }
+  
+  /* Second Page Styles */
+  .second-page {
+    background-image: url('../assets/rose-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .video-container {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
