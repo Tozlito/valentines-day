@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     margin: 0;
     padding: 0;
@@ -10,62 +9,27 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-  }
-  
-  /* First Page Styles */
-  .first-page {
-    background-image: url(assets/rose1.jpg);
     background-size: cover;
     background-position: center;
-  }
-  
-  .content {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    background-repeat: no-repeat;
+}
+
+.first-page {
+    background-image: url('../assets/rose1.jpg');
+}
+
+.second-page {
+    background-image: url('../assets/rose-2.jpg');
+}
+
+.video-container {
+    background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
-  }
-  
-  h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 2rem;
-    margin: 10px 0;
-  }
-  
-  .continue-link {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background: #ff4d4d;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    transition: background 0.3s ease;
-  }
-  
-  .continue-link:hover {
-    background: #ff1a1a;
-  }
-  
-  /* Second Page Styles */
-  .second-page {
-    background-image: url(assets/rose-2.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .video-container {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  video {
+}
+
+video {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-  }
+}
